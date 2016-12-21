@@ -1,0 +1,22 @@
+{
+  "name": "require-npm4-to-publish",
+  "version": "1.0.0",
+  "description": "A module to easily detect if we're running npm4 for publish operations.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/resin-io-modules/require-npm4-to-publish.git"
+  },
+  "bin": {
+    "require-npm4-to-publish": "index.js"
+  },
+  "dependencies": {
+    "in-publish": "^2.0.0",
+    "semver": "^5.3.0"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/resin-io/require-npm4-to-publish/issues"
+  },
+  "homepage": "https://github.com/resin-io/require-npm4-to-publish"
+}
